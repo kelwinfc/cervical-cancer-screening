@@ -23,3 +23,4 @@ If you use this repository, please cite this paper:
 For scientific questions, or for questions related to the method implementation, please contact Kelwin Fernandes at <[kafc@inesctec.pt](mailto:kafc@inesctec.pt)>
 
 For questions related to this Python 3.5 implementation, please write to Davide Chicco at <[davide.chicco@gmail.com](mailto:davide.chicco@gmail.com)>
+The Python 3.5 version can be found in [here](https://github.com/davidechicco/cervical-cancer-screening)
