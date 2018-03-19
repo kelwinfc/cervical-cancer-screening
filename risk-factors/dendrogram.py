@@ -60,7 +60,8 @@ for ft_orig in range(X.shape[1]):
                                      np.mean(np.abs(emb - embnew), axis=0))
 
 model = AgglomerativeClustering(n_clusters=1).fit(impact)
+fig = plt.figure(figsize=(14, 12))
 plot_dendrogram(model, labels=df.columns.values)
 plt.yticks([])
-plt.savefig('dendogram-embedding.png', bbox_inches='tight')
+plt.savefig('dendogram-embedding.pdf', bbox_inches='tight')
 plt.clf()
